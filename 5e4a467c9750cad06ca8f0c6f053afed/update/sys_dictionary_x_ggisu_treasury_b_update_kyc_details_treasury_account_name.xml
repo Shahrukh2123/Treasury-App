@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="account_name" table="x_ggisu_treasury_b_update_kyc_details_treasury">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="sys_user" name="sys_user">sys_user</reference>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -54,7 +54,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>703318399</sys_created_by>
         <sys_created_on>2024-03-04 12:28:14</sys_created_on>
-        <sys_id>86e3e2e887708650a3bb8776cebb35b9</sys_id>
         <sys_name>Account Name</sys_name>
         <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
         <sys_policy/>

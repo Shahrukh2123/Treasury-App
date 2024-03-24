@@ -60,6 +60,7 @@ g_form.setValue('bank_name',gr.bank_name);
         <sys_updated_on>2024-03-12 05:48:59</sys_updated_on>
         <table/>
         <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
         <variable_set/>
         <view/>
     </catalog_ui_policy>

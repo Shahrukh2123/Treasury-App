@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>bank_name</element>
-            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="632ca1528d30021087de63ac7f1f0028">797c1ecc876c4e10a3bb8776cebb3553</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>ifsc_code</element>
-            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="632ca1528d30021087de63ac7f1f0028">797c1ecc876c4e10a3bb8776cebb3553</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>bank_email</element>
-            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="632ca1528d30021087de63ac7f1f0028">797c1ecc876c4e10a3bb8776cebb3553</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>location</element>
-            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="632ca1528d30021087de63ac7f1f0028">797c1ecc876c4e10a3bb8776cebb3553</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -85,7 +85,7 @@
             <sys_updated_by>703318399</sys_updated_by>
             <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">714760421b03201060745421604bcbc2</view>
+            <view display_value="Reference List" name="sys_ref_list">632ca1528d30021087de63ac7f1f0028</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

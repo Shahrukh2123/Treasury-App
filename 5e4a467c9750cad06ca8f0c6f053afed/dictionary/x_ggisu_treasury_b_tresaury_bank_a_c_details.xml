@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4dbc8eb49790cad06ca8f0c6f053afae" label="Tresaury Bank A/C Details" max_length="40" name="x_ggisu_treasury_b_tresaury_bank_a_c_details" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Bank Location" max_length="32" name="bank_location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Bank Name" max_length="32" name="bank_name" reference="x_ggisu_treasury_b_treasury_bank_details" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Click Here for attachment" mandatory="true" max_length="40" name="click_here_for_attachment" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Deposit Amount" max_length="1000" name="deposit_amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Is KYC Updated" max_length="40" name="is_kyc_updated" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Legal and Tax Documents" mandatory="true" max_length="1000" name="legal_and_tax_documents" type="file_attachment"/>
+        <element attributes="edge_encryption_enabled=true" label="Mobile Number" max_length="40" name="mobile_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="bank_location"/>
+        </index>
+        <index name="index2">
+            <element name="bank_name"/>
+        </index>
+    </element>
+</database>

@@ -52,7 +52,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="Treasury Concerned team ">10bd7f9c97684a506ca8f0c6f053afc0</recipient_groups>
+        <recipient_groups>10bd7f9c97684a506ca8f0c6f053afc0</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -76,7 +76,7 @@
         <sys_updated_by>703318399</sys_updated_by>
         <sys_updated_on>2024-03-21 09:16:43</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Genpact Email Template">840589a51b4d3010cbcea8afe54bcbd6</template>
+        <template display_value="">840589a51b4d3010cbcea8afe54bcbd6</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="account_number" table="x_ggisu_treasury_b_update_kyc_details_treasury">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>703318399</sys_created_by>
         <sys_created_on>2024-03-04 12:08:58</sys_created_on>
-        <sys_id>596f9a2887bc4650a3bb8776cebb35a3</sys_id>
         <sys_name>Account Number</sys_name>
         <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
         <sys_policy/>

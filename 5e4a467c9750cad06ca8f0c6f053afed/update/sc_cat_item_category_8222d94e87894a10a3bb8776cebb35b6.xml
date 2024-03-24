@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="Treasury Global Bank A/C opening &amp; KYC update Online System">04b49a389794cad06ca8f0c6f053afc9</sc_cat_item>
-        <sc_category display_value="IT">5b8edf4587a1341076294338cebb3540</sc_category>
+        <sc_category display_value="">5b8edf4587a1341076294338cebb3540</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>703318399</sys_created_by>
         <sys_created_on>2024-03-21 08:37:16</sys_created_on>

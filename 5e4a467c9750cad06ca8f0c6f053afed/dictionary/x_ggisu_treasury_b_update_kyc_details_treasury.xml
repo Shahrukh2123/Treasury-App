@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="007d12e0877c4650a3bb8776cebb35e4" label="Update KYC Details Treasury" max_length="40" name="x_ggisu_treasury_b_update_kyc_details_treasury" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Account Name" max_length="200" name="account_name" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Account Number" max_length="40" name="account_number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Account Type" max_length="100" name="account_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Current" value="1"/>
+                <element inactive_on_update="false" label="Salaried" value="1"/>
+                <element inactive_on_update="false" label="Saving" value="1"/>
+            </choice>
+        </element>
+        <element label="Amount Deposited" max_length="1000" name="amount_deposited" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Bank Name" max_length="32" name="bank_name" reference="x_ggisu_treasury_b_treasury_bank_details" type="reference"/>
+        <element label="IFSC Code" max_length="100" name="ifsc_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="KYC Done" max_length="100" name="kyc_done" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="account_name"/>
+        </index>
+        <index name="index2">
+            <element name="bank_name"/>
+        </index>
+    </element>
+</database>

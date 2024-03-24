@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>703318399</sys_created_by>
             <sys_created_on>2024-02-09 08:53:43</sys_created_on>
-            <sys_id>1bbcceb49790cad06ca8f0c6f053afee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>bank_name</sys_name>
             <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>

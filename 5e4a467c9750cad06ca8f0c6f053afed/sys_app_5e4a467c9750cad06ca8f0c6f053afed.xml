@@ -16,6 +16,7 @@
         <logo/>
         <menu/>
         <name>Treasury Banks Interaction</name>
+        <package_json/>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -42,4 +43,5 @@
         <vendor_prefix/>
         <version>1.0.2</version>
     </sys_app>
+    <sys_translated_text action="delete_multiple" query="documentkey=5e4a467c9750cad06ca8f0c6f053afed"/>
 </record_update>

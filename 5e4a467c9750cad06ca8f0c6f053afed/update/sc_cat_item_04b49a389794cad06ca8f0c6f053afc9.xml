@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="IT">5b8edf4587a1341076294338cebb3540</category>
+        <category display_value="">5b8edf4587a1341076294338cebb3540</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -38,12 +38,13 @@
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
         <no_quantity_v2>true</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Shahrukh Khan">434415f897fd4950e4def0c3f153af3e</owner>
+        <owner display_value="">434415f897fd4950e4def0c3f153af3e</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=04b49a389794cad06ca8f0c6f053afc9&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>

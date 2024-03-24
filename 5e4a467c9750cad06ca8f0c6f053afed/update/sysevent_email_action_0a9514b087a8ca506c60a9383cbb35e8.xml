@@ -7,7 +7,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>sc_task</collection>
-        <condition table="sc_task">assignment_group=1c393b5097284a506ca8f0c6f053afc5^EQ<item display_table="sys_user_group" display_value="Legal (external legal) Group" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="1c393b5097284a506ca8f0c6f053afc5"/>
+        <condition table="sc_task">assignment_group=1c393b5097284a506ca8f0c6f053afc5^EQ<item endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="1c393b5097284a506ca8f0c6f053afc5"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
@@ -49,7 +49,7 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="Legal (external legal) Group">1c393b5097284a506ca8f0c6f053afc5</recipient_groups>
+        <recipient_groups>1c393b5097284a506ca8f0c6f053afc5</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -73,7 +73,7 @@
         <sys_updated_by>703318399</sys_updated_by>
         <sys_updated_on>2024-03-20 06:37:56</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Genpact Email Template">840589a51b4d3010cbcea8afe54bcbd6</template>
+        <template display_value="">840589a51b4d3010cbcea8afe54bcbd6</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>

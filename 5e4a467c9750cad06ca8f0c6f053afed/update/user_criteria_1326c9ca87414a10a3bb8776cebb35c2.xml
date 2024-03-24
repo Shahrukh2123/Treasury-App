@@ -4,7 +4,7 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group name="Treasury Users Group">c442814e878d0a10a3bb8776cebb35d8</group>
+        <group>c442814e878d0a10a3bb8776cebb35d8</group>
         <location/>
         <match_all>true</match_all>
         <name>Treasury Users Creteria</name>
@@ -25,7 +25,7 @@
         <sys_update_name>user_criteria_1326c9ca87414a10a3bb8776cebb35c2</sys_update_name>
         <sys_updated_by>703318399</sys_updated_by>
         <sys_updated_on>2024-03-21 08:27:33</sys_updated_on>
-        <u_country/>
         <user/>
     </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=1326c9ca87414a10a3bb8776cebb35c2"/>
 </record_update>

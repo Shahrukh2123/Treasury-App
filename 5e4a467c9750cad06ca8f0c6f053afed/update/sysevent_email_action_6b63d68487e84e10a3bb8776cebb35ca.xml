@@ -72,7 +72,7 @@
         <sys_updated_by>703318399</sys_updated_by>
         <sys_updated_on>2024-02-19 11:55:30</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Genpact Email Template">840589a51b4d3010cbcea8afe54bcbd6</template>
+        <template display_value="">840589a51b4d3010cbcea8afe54bcbd6</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
