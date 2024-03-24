@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description>Schedule Job</description>
+        <event_name>x_ggisu_treasury_b.control_noti_freq_tre</event_name>
+        <fired_by>Schedule Job</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>control_noti_freq_treasury</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-22 11:14:35</sys_created_on>
+        <sys_id>e46f36daeb894a10bb4ff264bad0cd3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ggisu_treasury_b.control_noti_freq_tre</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sysevent_register_e46f36daeb894a10bb4ff264bad0cd3e</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-22 11:14:35</sys_updated_on>
+        <table>sc_req_item</table>
+    </sysevent_register>
+</record_update>

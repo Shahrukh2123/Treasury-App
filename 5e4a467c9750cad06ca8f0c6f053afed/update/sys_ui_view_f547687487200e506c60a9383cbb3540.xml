@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>upload_documents_view</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-21 11:46:08</sys_created_on>
+        <sys_id>f547687487200e506c60a9383cbb3540</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upload_documents_view</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_ui_view_f547687487200e506c60a9383cbb3540</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-21 11:46:08</sys_updated_on>
+        <title>Upload_documents_view</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

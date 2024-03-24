@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sc_task</collection>
+        <condition table="sc_task">assignment_group=1c393b5097284a506ca8f0c6f053afc5^EQ<item display_table="sys_user_group" display_value="Legal (external legal) Group" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="1c393b5097284a506ca8f0c6f053afc5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_ggisu_treasury_b.Trigger_noti_for_trea</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi<br />A new catalog task&nbsp; ${number} &nbsp;has been created to request &nbsp;necessary documents** from Legal (external legal if any)&nbsp;<br />Please find the neccessary documents&nbsp; and upload in the below link for opening a new Bank account from the point of Legal</p>
+<p><a href="https://genpactdevelop.service-now.com/sp?id=form&amp;table=sc_task&amp;sys_id=${sys_id}&amp;view=Upload_documents_view1" target="_blank" rel="noopener">Click to Upload</a></p>
+<p>&nbsp;</p>
+<p><br />Regards<br />Genpact (Treasury)</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Treasury Legal External</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Legal (external legal) Group">1c393b5097284a506ca8f0c6f053afc5</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Request necessary documents** from Legal (external legal if any) </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-21 10:28:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a9514b087a8ca506c60a9383cbb35e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Treasury Legal External</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sysevent_email_action_0a9514b087a8ca506c60a9383cbb35e8</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-20 06:37:56</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Genpact Email Template">840589a51b4d3010cbcea8afe54bcbd6</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

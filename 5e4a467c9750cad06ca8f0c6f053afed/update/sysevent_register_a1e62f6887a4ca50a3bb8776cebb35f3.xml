@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_ggisu_treasury_b.Trigger_noti_for_trea</event_name>
+        <fired_by>Workflow</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>Trigger_noti_for_treasury</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-21 07:05:49</sys_created_on>
+        <sys_id>a1e62f6887a4ca50a3bb8776cebb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_ggisu_treasury_b.Trigger_noti_for_trea</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sysevent_register_a1e62f6887a4ca50a3bb8776cebb35f3</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-21 07:05:49</sys_updated_on>
+        <table>sc_req_item</table>
+    </sysevent_register>
+</record_update>

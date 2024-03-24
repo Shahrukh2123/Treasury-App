@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">01c3a37497d84ed06ca8f0c6f053afa4</sp_column>
+        <sp_widget display_value="Treasury Catalog Item widget">9b11a37097984ed06ca8f0c6f053af4d</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-09 15:14:08</sys_created_on>
+        <sys_id>bbc3a73497d84ed06ca8f0c6f053af66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sp_instance_bbc3a73497d84ed06ca8f0c6f053af66</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:14:08</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=bbc3a73497d84ed06ca8f0c6f053af66"/>
+</record_update>

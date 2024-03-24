@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_ggisu_treasury_b_update_kyc_details_treasury</collection>
+        <condition table="x_ggisu_treasury_b_update_kyc_details_treasury">kyc_done=true^EQ<item endquery="false" field="kyc_done" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_ggisu_treasury_b.Trigger_noti_for_trea</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hi<br />A new catalog task ${number} has been created to request &nbsp;necessary documents** from concerned Team for KYC Update for Bank A/C ${account_name} whose details are given below</p>
+<p>Account Number: ${account_number}<br />Account Name:&nbsp; ${account_name}</p>
+<p>Account IFSC: ${ifsc_code}<br /><br /><br />Please &nbsp;upload the necessary documents through below Link required for KYC updation&nbsp; from the point of Concerned Team</p>
+<p><a href="https://genpactdevelop.service-now.com/sp?id=form&amp;table=sc_task&amp;sys_id=${sys_id}&amp;view=Upload_documents_view1" target="_blank" rel="noopener">Click to Upload</a></p>
+<p>Regards<br />Genpact (Treasury)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Treasury Concerned Team KYC Update</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="Treasury Concerned team ">10bd7f9c97684a506ca8f0c6f053afc0</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject> Request for necessary documents** from Concerned team </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-21 10:44:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee29d8b487e8ca506c60a9383cbb3505</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Treasury Concerned Team KYC Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sysevent_email_action_ee29d8b487e8ca506c60a9383cbb3505</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-21 09:16:43</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Genpact Email Template">840589a51b4d3010cbcea8afe54bcbd6</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

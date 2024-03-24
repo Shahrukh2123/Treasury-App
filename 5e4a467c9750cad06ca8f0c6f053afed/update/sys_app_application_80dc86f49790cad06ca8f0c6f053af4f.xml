@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>x_ggisu_treasury_b.treasury bank account requester,x_ggisu_treasury_b.treasury bank requester user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-09 08:54:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80dc86f49790cad06ca8f0c6f053af4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Treasury Banks Interaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_app_application_80dc86f49790cad06ca8f0c6f053af4f</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-09 08:54:03</sys_updated_on>
+        <title>Treasury Banks Interaction</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

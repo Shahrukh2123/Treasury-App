@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_email</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sys_email">type=received^subjectSTARTSWITHRequest for  Opening a New Bank Account^target_table=x_ggisu_treasury_b_tresaury_bank_a_c_details^EQ<item display_value="received" endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="received"/>
+            <item endquery="false" field="subject" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Request for  Opening a New Bank Account"/>
+            <item endquery="false" field="target_table" goto="false" newquery="false" operator="=" or="false" value="x_ggisu_treasury_b_tresaury_bank_a_c_details"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Trigger Approval Flows  A/F BNK Docs</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var gr=new GlideRecord('x_ggisu_treasury_b_tresaury_bank_a_c_details');
+	gr.addEncodedQuery('sys_id='+current.instance);
+	gr.query();
+	if(gr.next()){
+		gs.eventQueue('x_ggisu_treasury_b.treasury_head_approval',current,current.recipients,gs.getUserName());
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-19 12:33:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8e9d9e0487ac4e10a3bb8776cebb35a1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Trigger Approval Flows  A/F BNK Docs</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_script_8e9d9e0487ac4e10a3bb8776cebb35a1</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-19 13:22:54</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8e9d9e0487ac4e10a3bb8776cebb35a1"/>
+</record_update>

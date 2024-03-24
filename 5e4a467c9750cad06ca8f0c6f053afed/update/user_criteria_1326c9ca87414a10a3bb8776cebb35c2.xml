@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group name="Treasury Users Group">c442814e878d0a10a3bb8776cebb35d8</group>
+        <location/>
+        <match_all>true</match_all>
+        <name>Treasury Users Creteria</name>
+        <role/>
+        <script/>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-21 07:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1326c9ca87414a10a3bb8776cebb35c2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Treasury Users Creteria</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>user_criteria_1326c9ca87414a10a3bb8776cebb35c2</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-21 08:27:33</sys_updated_on>
+        <u_country/>
+        <user/>
+    </user_criteria>
+</record_update>

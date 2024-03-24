@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>section.page{&#13;
+ background-image:url('https://genpactonline.sharepoint.com/sites/The_Genpact_Brand/SiteAssets/Genpact-Branding/assets/images/background-pattern/l2.JPG'); &#13;
+  background-repeat:no-repeat;&#13;
+  &#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>open_new_bank_account</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-09 15:00:15</sys_created_on>
+        <sys_id>5ca0e3fc97584ed06ca8f0c6f053afad</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>open_new_bank_account</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sp_page_5ca0e3fc97584ed06ca8f0c6f053afad</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-09 15:19:26</sys_updated_on>
+        <title>Treasury Request New Bank A/C</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=5ca0e3fc97584ed06ca8f0c6f053afad"/>
+</record_update>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_ggisu_treasury_b_treasury_bank_details" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bank_name</element>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>703318399</sys_created_by>
+            <sys_created_on>2024-02-19 12:22:42</sys_created_on>
+            <sys_id>b97c1ecc876c4e10a3bb8776cebb3554</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>703318399</sys_updated_by>
+            <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ifsc_code</element>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>703318399</sys_created_by>
+            <sys_created_on>2024-02-19 12:22:42</sys_created_on>
+            <sys_id>b17c1ecc876c4e10a3bb8776cebb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>703318399</sys_updated_by>
+            <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>bank_email</element>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>703318399</sys_created_by>
+            <sys_created_on>2024-02-19 12:22:42</sys_created_on>
+            <sys_id>b57c1ecc876c4e10a3bb8776cebb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>703318399</sys_updated_by>
+            <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_ggisu_treasury_b_treasury_bank_details" element="NULL" name="x_ggisu_treasury_b_treasury_bank_details" parent="NULL" relationship="NULL" sys_domain="global" view="714760421b03201060745421604bcbc2">797c1ecc876c4e10a3bb8776cebb3553</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>703318399</sys_created_by>
+            <sys_created_on>2024-02-19 12:22:42</sys_created_on>
+            <sys_id>b97c1ecc876c4e10a3bb8776cebb3555</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>703318399</sys_updated_by>
+            <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_ggisu_treasury_b_treasury_bank_details</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>703318399</sys_created_by>
+            <sys_created_on>2024-02-19 12:22:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>797c1ecc876c4e10a3bb8776cebb3553</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_ggisu_treasury_b_treasury_bank_details</sys_name>
+            <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+            <sys_update_name>sys_ui_list_x_ggisu_treasury_b_treasury_bank_details_sys_ref_list</sys_update_name>
+            <sys_updated_by>703318399</sys_updated_by>
+            <sys_updated_on>2024-02-19 12:22:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">714760421b03201060745421604bcbc2</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

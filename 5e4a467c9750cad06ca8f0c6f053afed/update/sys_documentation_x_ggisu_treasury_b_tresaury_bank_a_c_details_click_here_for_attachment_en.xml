@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="click_here_for_attachment" label="Click Here for attachment" language="en" table="x_ggisu_treasury_b_tresaury_bank_a_c_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>click_here_for_attachment</element>
+            <help/>
+            <hint/>
+            <label>Click Here for attachment</label>
+            <language>en</language>
+            <name>x_ggisu_treasury_b_tresaury_bank_a_c_details</name>
+            <plural>Click Here for attachments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>703322156</sys_created_by>
+            <sys_created_on>2024-03-12 12:17:29</sys_created_on>
+            <sys_id>904e634397b806946ca8f0c6f053afe0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Click Here for attachment</sys_name>
+            <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+            <sys_update_name>sys_documentation_x_ggisu_treasury_b_tresaury_bank_a_c_details_click_here_for_attachment_en</sys_update_name>
+            <sys_updated_by>703322156</sys_updated_by>
+            <sys_updated_on>2024-03-12 12:17:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

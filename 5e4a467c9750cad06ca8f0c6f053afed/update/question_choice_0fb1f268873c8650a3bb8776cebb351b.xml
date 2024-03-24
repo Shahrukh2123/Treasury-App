@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Requested For">e330be6087f88650a3bb8776cebb3509</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-04 13:28:31</sys_created_on>
+        <sys_id>0fb1f268873c8650a3bb8776cebb351b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open Bank A/C</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>question_choice_0fb1f268873c8650a3bb8776cebb351b</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:28:55</sys_updated_on>
+        <text>Open Bank A/C</text>
+        <value>OPC</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=0fb1f268873c8650a3bb8776cebb351b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>0fb1f268873c8650a3bb8776cebb351b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-04 13:28:31</sys_created_on>
+        <sys_id>bec172a8873c8650a3bb8776cebb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:28:31</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>0fb1f268873c8650a3bb8776cebb351b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-04 13:28:31</sys_created_on>
+        <sys_id>76c172a8873c8650a3bb8776cebb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-04 13:28:31</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

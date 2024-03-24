@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_ggisu_treasury_b.SetValues_Account_Name_Update_KYC</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SetValues_Account_Name_Update_KYC</name>
+        <script><![CDATA[var SetValues_Account_Name_Update_KYC = Class.create();
+SetValues_Account_Name_Update_KYC.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    initialize: function() {},
+   
+
+    type: 'SetValues_Account_Name_Update_KYC'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-13 05:49:44</sys_created_on>
+        <sys_id>82f746c2979c4e506ca8f0c6f053af2a</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>SetValues_Account_Name_Update_KYC</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_script_include_82f746c2979c4e506ca8f0c6f053af2a</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-09 08:52:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

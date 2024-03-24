@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Update KYC Details Treasury">b5ee96a087bc4650a3bb8776cebb35b0</application>
+        <filter/>
+        <name>Update KYC Details Treasuries</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_ggisu_treasury_b.update_kyc_details_treasury_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-04 12:06:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>82ee96a087bc4650a3bb8776cebb35b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update KYC Details Treasuries</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_ui_module_82ee96a087bc4650a3bb8776cebb35b4</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-04 12:06:00</sys_updated_on>
+        <table>x_ggisu_treasury_b_update_kyc_details_treasury</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

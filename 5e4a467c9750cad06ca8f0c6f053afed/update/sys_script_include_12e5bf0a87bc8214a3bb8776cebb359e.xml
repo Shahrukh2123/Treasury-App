@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_ggisu_treasury_b.GetAccountDetails</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetAccountDetails</name>
+        <script><![CDATA[var GetAccountDetails = Class.create();
+GetAccountDetails.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    gethostname_rdp: function() {
+        //gs.addInfoMessage("Hi");
+        var ip = this.getParameter('sysparm_cost_id');
+        var gr_server = new GlideRecord("x_ggisu_treasury_b_update_kyc_details_treasury");
+        gr_server.addQuery('sys_id', ip);
+        gr_server.query();
+        //	gs.addInfoMessage(gr_server.getRowCount());
+        if (gr_server.next()) {
+           // gs.addInfoMessage("test");
+            var obj = {
+                'ifsc': "" + gr_server.ifsc_code,
+                'accountType': "" + gr_server.getDisplayValue('account_type'),
+                'bankName': "" + gr_server.getDisplayValue('bank_name'),
+				'account_number': "" +gr_server.account_number
+            };
+            var str = JSON.stringify(obj);
+            return str; //JSON formatted string
+
+        }
+    },
+    type: 'GetAccountDetails'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-03-09 10:17:56</sys_created_on>
+        <sys_id>12e5bf0a87bc8214a3bb8776cebb359e</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>GetAccountDetails</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_script_include_12e5bf0a87bc8214a3bb8776cebb359e</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-03-21 11:06:50</sys_updated_on>
+    </sys_script_include>
+</record_update>

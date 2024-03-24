@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>request_legal_tax</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>703318399</sys_created_by>
+        <sys_created_on>2024-02-13 08:17:40</sys_created_on>
+        <sys_id>16da6e8297d4ce506ca8f0c6f053afeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request_Legal_Tax</sys_name>
+        <sys_package display_value="Treasury Banks Interaction" source="x_ggisu_treasury_b">5e4a467c9750cad06ca8f0c6f053afed</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Treasury Banks Interaction">5e4a467c9750cad06ca8f0c6f053afed</sys_scope>
+        <sys_update_name>sys_ui_view_16da6e8297d4ce506ca8f0c6f053afeb</sys_update_name>
+        <sys_updated_by>703318399</sys_updated_by>
+        <sys_updated_on>2024-02-13 08:17:40</sys_updated_on>
+        <title>Request_Legal_Tax</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
